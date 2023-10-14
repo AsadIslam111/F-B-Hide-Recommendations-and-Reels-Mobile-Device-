@@ -55,7 +55,7 @@ export class Popup {
           if (corb.tabs === undefined || corb.tabs === null) return;
           if (corb.tabs.query === undefined || corb.tabs.query === null) return;
           const tabs = await corb.tabs.query({
-            //url: "https://www.facebook.com/*",
+            //url: "https://www.m.facebook.com/*",
             active: true,
             currentWindow: true,
           });
